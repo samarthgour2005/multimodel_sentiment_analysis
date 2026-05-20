@@ -43,8 +43,5 @@ python -m pip install -r requirements.txt
 - Adjust batch sizes and learning rates to fit your hardware.
 - If using a different dataset path, update the `text_dir` and `label_file` variables in the notebook.
 
----
-Generated from the notebook: [multimodal-sentiment-analysis.ipynb](multimodal-sentiment-analysis.ipynb#L1)
-
 **Model Comparison Image**
 ![Model Comparison](assets/model_comparison.png) 
