@@ -44,4 +44,5 @@ python -m pip install -r requirements.txt
 - If using a different dataset path, update the `text_dir` and `label_file` variables in the notebook.
 
 **Model Comparison Image**
-![Model Comparison](assets/model_comparison.png) 
+
+  <img src="assets\model_comparsion.png" width="500">
