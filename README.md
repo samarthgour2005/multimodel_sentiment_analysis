@@ -28,21 +28,6 @@
 - **Files used:** image files (`.jpg`), text files (`.txt`) in `data`, and `labelResultAll.txt` for labels.
 - **Labels:** negative, neutral, positive (mapped to integers 0,1,2).
 
-**How to Run**
-- Install dependencies (example):
-
-```bash
-python -m pip install -r requirements.txt
-```
-
-- Open and run the notebook: [multimodal-sentiment-analysis.ipynb](multimodal-sentiment-analysis.ipynb#L1)
-- Key cells to run in order: data loading, preprocessing, dataset creation, model definitions, training loops, evaluation and plotting.
-
-**Notes & Tips**
-- Training BERT+ResNet fusion requires a GPU for reasonable training speed.
-- Adjust batch sizes and learning rates to fit your hardware.
-- If using a different dataset path, update the `text_dir` and `label_file` variables in the notebook.
-
 **Model Comparison Image**
 
   <img src="assets\model_comparsion.png" width="500">
